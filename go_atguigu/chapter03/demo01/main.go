@@ -1,4 +1,4 @@
-package main
+package demo01
 
 import "fmt"
 
@@ -6,6 +6,9 @@ import "fmt"
 var n10 = 100
 var n12 = 200
 var name1 = "jack"
+
+// HeroName 定义公有的全局变量
+var HeroName string = "宋江"
 
 // 上面的声明改成一次性声明
 var (
