@@ -5,7 +5,7 @@ import (
 	"unsafe" //引入unsafe包，使用Sizeof()函数
 )
 
-// 演示go中整数类型的使用
+// TODO go中整数类型的使用
 func main() {
 	// 整数类型
 	/** 有符号

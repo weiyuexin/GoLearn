@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	// 演示 & 和 *
+	// TODO 演示 & 和 *
 	a := 10
 	fmt.Println("a的地址:", &a) //0xc0000aa058
 	var ptr *int = &a

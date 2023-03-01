@@ -2,7 +2,7 @@ package main
 
 import (
 	// 引入包
-	"GoLearn/go_atguigu/chapter03/demo01"
+	//"GoLearn/go_atguigu/chapter03/demo01"
 	"fmt"
 )
 
@@ -30,5 +30,5 @@ func main() {
 	// 母大写是公有的，首字母小写是私有的，在golang中没有public、private等访问控制关键字）
 
 	// 使用utils.go中的heroName 包名.标识符
-	fmt.Println(demo01.HeroName)
+	//fmt.Println(demo01.HeroName)
 }

@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// 进制
+// TODO 进制
 func main() {
 	// 对应整数，有以下四种方式
 	// 1、二进制

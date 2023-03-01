@@ -8,7 +8,7 @@ func test() bool {
 	return true
 }
 
-// 逻辑运算符
+// TODO 逻辑运算符
 func main() {
 	// && 逻辑与(短路与)，第一个条件为false，则第二个条件不会判断
 	//|| 逻辑或(短路或)，第一个为true，则第二个条件不会再判断

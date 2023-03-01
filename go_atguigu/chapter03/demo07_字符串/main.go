@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// 演示字符串类型
+// TODO 字符串类型
 func main() {
 	// 字符串是一串固定长度的字符连接起来的字符序列，GO字符串是由单个字节连接起来。GO的字符串的字节使用UTF-8编码标识Unicode文本
 	//string的基本使用

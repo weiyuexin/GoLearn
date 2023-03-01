@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// 获取用户键盘输入
+// TODO 获取用户键盘输入
 // 1、fmt.Scanln 按行输入
 // 2、fmt.Scanf 格式化输入
 func main() {

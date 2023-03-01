@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// 演示go中+的使用
+// TODO go中+的使用
 func main() {
 	var i = 2
 	var j = 3

@@ -5,7 +5,7 @@ import (
 	"unsafe"
 )
 
-// 演示bool类型
+// TODO bool类型
 func main() {
 	// 布尔类型：true or false
 	// bool类型占1字节

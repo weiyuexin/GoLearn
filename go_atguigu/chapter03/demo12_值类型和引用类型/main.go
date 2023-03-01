@@ -1,6 +1,6 @@
 package main
 
-//值类型和引用类型
+//TODO 值类型和引用类型
 func main() {
 	//1、值类型：基本数据类型int、float、bool、string、数组和结构体struct
 	//2、引用类型：指针、slice切片、map、管道channel，interface等

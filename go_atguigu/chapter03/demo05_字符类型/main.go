@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-// 演示字符类型的使用
+// TODO 字符类型的使用
 func main() {
 	var c1 byte = 'a'
 	var c2 byte = '0' //字符的0

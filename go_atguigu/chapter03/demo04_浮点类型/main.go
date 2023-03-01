@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-//演示浮点类型
+//TODO 浮点类型
 func main() {
 	var price float32 = 89.12
 	fmt.Println("price=", price)
