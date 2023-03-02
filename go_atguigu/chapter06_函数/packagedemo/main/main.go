@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"packagedemo/utils" //引入自定义包，项目不在gopath中时，需要使用go mod定义模块
+	// 取别名，取了别名后，原先的包名就不能用了
+	ut "packagedemo/utils" //引入自定义包，项目不在gopath中时，需要使用go mod定义模块
 )
 
 // TODO 包
@@ -16,8 +17,18 @@ func main() {
 	// package 包名
 	// import "包路径"
 
+	// 注意事项：
+	// 1、再给一个文件打包时，该包应该对应一个文件夹，比如utils
+	// 文件夹对应包名utils，文件的包名通常和文件所在的文件夹一致，一般为小写字母
+	// 2、当一个文件要使用其他包的函数或变量时，需要先引入对应的包
+	// 3、package指令在文件第一行，然后是import指令
+	// 4、在import包时，路劲从$GOPATH的src下开始，不用带src，编译器会自动从src下开始引入
+	// 6、在同一包下，不能有相同的函数名（也不能有相同的全局变量名），否则报重复定义
+	// 7、如果要编译成一个可执行文件，包名必须声明成main，在一个项目中，main只能有一个
+
 	n1, n2 := 1.2, 2.3
 	// 调用其他包中的函数
-	result := utils.Cal(n1, n2, '+')
+	result := ut.Cal(n1, n2, '+')
 	fmt.Println(result)
+	fmt.Println("utils.go Num:", ut.Num)
 }

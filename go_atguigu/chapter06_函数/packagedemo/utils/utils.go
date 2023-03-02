@@ -1,5 +1,7 @@
 package utils
 
+var Num int = 999
+
 // Cal 函数名大写才能在其他包使用
 func Cal(n1 float64, n2 float64, operator byte) float64 {
 	var res float64
