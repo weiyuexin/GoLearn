@@ -18,7 +18,6 @@ func main() {
 		fmt.Println("open queue success...")
 	}
 	defer q.Close()
-	fmt.Println(ps)
 
 	for p := range ps {
 		networkLayer := p.Packet.NetworkLayer()
