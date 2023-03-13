@@ -7,7 +7,6 @@ import (
 )
 
 func main() {
-	fmt.Println("start...")
 	q := nfqueue.NewNFQueue(1)
 
 	ps, err := q.Open()
@@ -30,6 +29,6 @@ func main() {
 
 		fmt.Printf("A new tcp connection will be established: %s:%s -> %s:%s\n",
 			ipsrc, tcpsrc, ipdst, tcpdst)
-		p.Accept()
+		p.Drop()
 	}
 }
